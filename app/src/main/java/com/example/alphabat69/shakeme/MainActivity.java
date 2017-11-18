@@ -41,47 +41,47 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
                 sensitivity.setText("Sensitivity("+i+")");
                 switch(i){
                     case 0:{
-                        SHAKE_THRESHOLD=7.0f;
-                        break;
-                    }
-                    case 1:{
-                        SHAKE_THRESHOLD=6.5f;
-                        break;
-                    }
-                    case 2:{
-                        SHAKE_THRESHOLD=6.0f;
-                        break;
-                    }
-                    case 3:{
-                        SHAKE_THRESHOLD=5.5f;
-                        break;
-                    }
-                    case 4:{
                         SHAKE_THRESHOLD=5.0f;
                         break;
                     }
-                    case 5:{
+                    case 1:{
                         SHAKE_THRESHOLD=4.5f;
                         break;
                     }
-                    case 6:{
+                    case 2:{
                         SHAKE_THRESHOLD=4.0f;
                         break;
                     }
-                    case 7:{
+                    case 3:{
                         SHAKE_THRESHOLD=3.5f;
                         break;
                     }
-                    case 8:{
+                    case 4:{
                         SHAKE_THRESHOLD=3.0f;
                         break;
                     }
-                    case 9:{
+                    case 5:{
                         SHAKE_THRESHOLD=2.5f;
                         break;
                     }
-                    case 10:{
+                    case 6:{
                         SHAKE_THRESHOLD=2.0f;
+                        break;
+                    }
+                    case 7:{
+                        SHAKE_THRESHOLD=1.5f;
+                        break;
+                    }
+                    case 8:{
+                        SHAKE_THRESHOLD=1.0f;
+                        break;
+                    }
+                    case 9:{
+                        SHAKE_THRESHOLD=0.5f;
+                        break;
+                    }
+                    case 10:{
+                        SHAKE_THRESHOLD=0.0f;
                         break;
                     }
                 }
@@ -111,10 +111,14 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
                 //play video
                 if (!bod.isPlaying())
                     bod.start();
+            }else {
+                //pause video
+                countpause++;
+                if(countpause>2&&SHAKE_THRESHOLD!=0.0f) {
+                    bod.pause();
+                    countpause=0;
+                }
             }
-        } else {
-            //pause video
-            bod.pause();
         }
     }
 
