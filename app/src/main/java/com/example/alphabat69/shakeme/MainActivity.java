@@ -41,27 +41,27 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
                 sensitivity.setText("Sensitivity("+i+")");
                 switch(i){
                     case 0:{
-                        SHAKE_THRESHOLD=5.0f;
+                        SHAKE_THRESHOLD=6.75f;
                         break;
                     }
                     case 1:{
-                        SHAKE_THRESHOLD=4.5f;
+                        SHAKE_THRESHOLD=6.0f;
                         break;
                     }
                     case 2:{
-                        SHAKE_THRESHOLD=4.0f;
+                        SHAKE_THRESHOLD=5.25f;
                         break;
                     }
                     case 3:{
-                        SHAKE_THRESHOLD=3.5f;
+                        SHAKE_THRESHOLD=4.5f;
                         break;
                     }
                     case 4:{
-                        SHAKE_THRESHOLD=3.0f;
+                        SHAKE_THRESHOLD=3.75f;
                         break;
                     }
                     case 5:{
-                        SHAKE_THRESHOLD=2.5f;
+                        SHAKE_THRESHOLD=3.0f;
                         break;
                     }
                     case 6:{
@@ -69,15 +69,15 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
                         break;
                     }
                     case 7:{
-                        SHAKE_THRESHOLD=1.5f;
+                        SHAKE_THRESHOLD=2.25f;
                         break;
                     }
                     case 8:{
-                        SHAKE_THRESHOLD=1.0f;
+                        SHAKE_THRESHOLD=1.5f;
                         break;
                     }
                     case 9:{
-                        SHAKE_THRESHOLD=0.5f;
+                        SHAKE_THRESHOLD=0.75f;
                         break;
                     }
                     case 10:{
