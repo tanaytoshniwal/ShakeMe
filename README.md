@@ -6,13 +6,14 @@ Download apk file here
      https://github.com/AlphaBAT69/ShakeMe/blob/master/apk/shakeme.apk
 ```
 ## Video Credits
+  YouTube link:
 ```bash
      https://www.youtube.com/watch?v=-vfpD7ofTzM&t=22s
 ```
 ## Song Credits
   YouTube link:
 ```bash
-     https://www.youtube.com/watch?v=1Fi1ZiIvt7I
+     https://www.youtube.com/watch?v=MlW7T0SUH0E
 ```
 ## Original Application
   Github project:
