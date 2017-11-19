@@ -15,13 +15,3 @@ Download apk file here
 ```bash
      https://www.youtube.com/watch?v=MlW7T0SUH0E
 ```
-## Original Application
-  Github project:
-```bash
-     https://github.com/PiJoules/Shake-Me
-```
-## Download apk file
-Download apk file here
-```bash
-     https://github.com/AlphaBAT69/ShakeMe/blob/master/apk/shakeme.apk
-```
