@@ -7,12 +7,12 @@ An Android application to play the Gif with Mp3 sound "BATMAN ON DRUGS" on phone
   - Usage
   In build.gradle file
   ```bash
-     repositories {
-         mavenCentral()
-	 maven { url 'https://maven.google.com' }
-     }
-     dependencies {
-	 compile 'com.github.bumptech.glide:glide:4.3.1'
-	 annotationProcessor 'com.github.bumptech.glide:compiler:4.3.1'
-     }
+    repositories {
+        mavenCentral()
+        maven { url 'https://maven.google.com' }
+    }
+    dependencies {
+        compile 'com.github.bumptech.glide:glide:4.3.1'
+        annotationProcessor 'com.github.bumptech.glide:compiler:4.3.1'
+    }
   ```
