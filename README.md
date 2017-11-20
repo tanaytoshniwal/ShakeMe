@@ -11,18 +11,18 @@ Download apk file here
      https://github.com/bumptech/glide
 ```
   Usage:
-	In build.gradle-
-	```bash
-		repositories {
-			mavenCentral()
-			maven { url 'https://maven.google.com' }
-		}
+	In build.gradle:
+	  ```bash
+		  repositories {
+			  mavenCentral()
+			  maven { url 'https://maven.google.com' }
+		  }
 
-		dependencies {
-			compile 'com.github.bumptech.glide:glide:4.3.1'
-			annotationProcessor 'com.github.bumptech.glide:compiler:4.3.1'
-		}
-	```
+		  dependencies {
+			  compile 'com.github.bumptech.glide:glide:4.3.1'
+			  annotationProcessor 'com.github.bumptech.glide:compiler:4.3.1'
+		  }
+	  ```
 #### You can find original song here:
   YouTube link:
 ```bash
