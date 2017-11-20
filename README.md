@@ -1,15 +1,11 @@
 # ShakeMe
 An Android application to play the Gif with Mp3 sound "BATMAN ON DRUGS" on phone Shake (replica of "Shake-Me" by @PiJoules)
-## Download apk file
-Download apk file here
-  ```
-	 https://github.com/AlphaBAT69/ShakeMe/raw/master/apk/ShakeMe.apk
-  ```
+
+-Download apk file [here](https://github.com/AlphaBAT69/ShakeMe/raw/master/apk/ShakeMe.apk)
 ## Glide Library
-  GitHub link:
-     [Glide](https://github.com/bumptech/glide)
-  Usage:
-    In build.gradle file
+  -GitHub [link](https://github.com/bumptech/glide)
+  -Usage
+  In build.gradle file
   ```bash
      repositories {
          mavenCentral()
@@ -20,5 +16,5 @@ Download apk file here
 	 annotationProcessor 'com.github.bumptech.glide:compiler:4.3.1'
      }
   ```
-#### You can find original song here:
-    [El Chombo - Chacarron](https://www.youtube.com/watch?v=MlW7T0SUH0E)
+You can find original song [here](https://www.youtube.com/watch?v=MlW7T0SUH0E)
+    
