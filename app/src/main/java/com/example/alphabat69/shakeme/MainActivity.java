@@ -39,52 +39,8 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
             @Override
             public void onProgressChanged(SeekBar seekBar, int i, boolean b) {
                 sensitivity.setText("Sensitivity("+i+")");
-                switch(i){
-                    case 0:{
-                        SHAKE_THRESHOLD=6.75f;
-                        break;
-                    }
-                    case 1:{
-                        SHAKE_THRESHOLD=6.0f;
-                        break;
-                    }
-                    case 2:{
-                        SHAKE_THRESHOLD=5.25f;
-                        break;
-                    }
-                    case 3:{
-                        SHAKE_THRESHOLD=4.5f;
-                        break;
-                    }
-                    case 4:{
-                        SHAKE_THRESHOLD=3.75f;
-                        break;
-                    }
-                    case 5:{
-                        SHAKE_THRESHOLD=3.0f;
-                        break;
-                    }
-                    case 6:{
-                        SHAKE_THRESHOLD=2.0f;
-                        break;
-                    }
-                    case 7:{
-                        SHAKE_THRESHOLD=2.25f;
-                        break;
-                    }
-                    case 8:{
-                        SHAKE_THRESHOLD=1.5f;
-                        break;
-                    }
-                    case 9:{
-                        SHAKE_THRESHOLD=0.75f;
-                        break;
-                    }
-                    case 10:{
-                        SHAKE_THRESHOLD=0.0f;
-                        break;
-                    }
-                }
+                SHAKE_THRESHOLD=GetThreshold.get(i);
+                Toast.makeText(MainActivity.this, ""+SHAKE_THRESHOLD, Toast.LENGTH_SHORT).show();
             }
             @Override
             public void onStartTrackingTouch(SeekBar seekBar) {}
