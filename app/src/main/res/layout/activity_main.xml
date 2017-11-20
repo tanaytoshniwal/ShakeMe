@@ -8,7 +8,7 @@
     tools:context="com.example.alphabat69.shakeme.MainActivity">
 
 
-    <VideoView
+    <ImageView
         android:id="@+id/bod"
         android:layout_width="376dp"
         android:layout_height="310dp"
