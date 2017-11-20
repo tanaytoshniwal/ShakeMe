@@ -13,11 +13,6 @@ Download apk file here
   Usage:
     In build.gradle file
 	```bash
-		repositories {
-			mavenCentral()
-			maven { url 'https://maven.google.com' }
-		}
-
 		dependencies {
 			compile 'com.github.bumptech.glide:glide:4.3.1'
 			annotationProcessor 'com.github.bumptech.glide:compiler:4.3.1'
