@@ -7,12 +7,10 @@ Download apk file here
   ```
 ## Glide Library
   GitHub link:
-  ```
-     https://github.com/bumptech/glide
-  ```
+     [Glide](https://github.com/bumptech/glide)
   Usage:
     In build.gradle file
-  ```javascript
+  ```bash
      repositories {
          mavenCentral()
 	 maven { url 'https://maven.google.com' }
@@ -23,11 +21,4 @@ Download apk file here
      }
   ```
 #### You can find original song here:
-  Song name:
-  ```
-    El Chombo - Chacarron
-  ```
-  YouTube link:
-  ```
-     https://www.youtube.com/watch?v=MlW7T0SUH0E
-  ```
+    [El Chombo - Chacarron](https://www.youtube.com/watch?v=MlW7T0SUH0E)
